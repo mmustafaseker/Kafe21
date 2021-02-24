@@ -95,6 +95,7 @@ namespace Kafe21
             // dgvUrunler
             // 
             this.dgvUrunler.AllowUserToAddRows = false;
+            this.dgvUrunler.AllowUserToDeleteRows = false;
             this.dgvUrunler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -114,6 +115,7 @@ namespace Kafe21
             this.dgvUrunler.Size = new System.Drawing.Size(547, 315);
             this.dgvUrunler.TabIndex = 5;
             this.dgvUrunler.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvUrunler_CellMouseDoubleClick);
+            this.dgvUrunler.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvUrunler_KeyDown);
             // 
             // Column1
             // 
